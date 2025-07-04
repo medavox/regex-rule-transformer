@@ -32,7 +32,6 @@ import com.github.medavox.ipa_transcribers.latin.LatinScriptCommonalities.latinB
  * Still to do: rules around final consonant devoicing, and voicing harmonisation
  * (eg when an unvoiced consonant devoices surrounding or following consonants)*/
 object German: RuleBasedTranscriber() {
-    override val completionStatus: CompletionStatus = CompletionStatus.SURFACE_LEVEL_COMPLETE
 
     val vowels = "aeiouäöü"
     val consonants = "bcdfghjklmnpqrstvwxyz"

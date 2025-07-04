@@ -18,7 +18,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package com.github.medavox.ipa_transcribers.other
 
-import com.github.medavox.ipa_transcribers.CompletionStatus
 import com.github.medavox.ipa_transcribers.Rule
 import com.github.medavox.ipa_transcribers.RuleBasedTranscriber
 import com.github.medavox.ipa_transcribers.normaliseNfd
@@ -51,7 +50,6 @@ import com.github.medavox.ipa_transcribers.normaliseNfd
  * [An independent reference wiki for the korean language](http://www.koreanwikiproject.com/wiki/index.php?title=IPA)
  * */
 object KoreanHangeul: RuleBasedTranscriber() {
-    override val completionStatus: CompletionStatus = CompletionStatus.COMPLETE
     private val vowels = "ᅡᅢᅣᅤᅥᅦᅧᅨᅩᅪᅫᅬᅭᅮᅯᅰᅱᅲᅳᅴᅵ"
     private val rules:List<Rule> = listOf(
 

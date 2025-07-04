@@ -38,7 +38,6 @@ object Italian: RuleBasedTranscriber() {
 
     val frontVowels = "ie"
     val nonFrontVowels = "aou"
-    override val completionStatus: CompletionStatus = CompletionStatus.IN_PROGRESS
     val rules = listOf<IRule>(
         //c & g rules
         Rule("ch[$frontVowels]", "k", 2),

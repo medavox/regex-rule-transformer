@@ -34,7 +34,6 @@ import com.github.medavox.ipa_transcribers.latin.LatinScriptCommonalities.latinB
 // cloud = kloʌd
 // thanks to jan Misali
 object English:RuleBasedTranscriber() {
-    override val completionStatus: CompletionStatus = CompletionStatus.IN_PROGRESS
     //todo:english: download Mellon Carnegie Uni pronouncing dictionary, check it has the 1000 most common english words
 //fallback system: try MCU (which includes exceptions), then try composable morphemes, then mark rosenfelder's rules
     //mark rosenfelder's transcription system:

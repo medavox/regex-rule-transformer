@@ -28,7 +28,6 @@ import com.github.medavox.ipa_transcribers.*
  *
  * Also a static list of any exceptions.*/
 object RussianCyrillic:RuleBasedTranscriber() {
-    override val completionStatus: CompletionStatus = CompletionStatus.IN_PROGRESS
     //todo: implement vowel reduction in unstressed vowels
     //TODO:voicing assimilation, and devoicing at end of word
 
